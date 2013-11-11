@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="315dp" android:layout_gravity="left|center_vertical"
+            android:background="@android:color/background_dark">
+        <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/viewImage"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:orientation="vertical">
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Take"
+                        android:id="@+id/takePictureButton" android:layout_column="0" android:onClick="takePicture"
+                        android:layout_weight="1"/>
+                <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/progressBar" android:layout_column="1"
+                        android:indeterminate="false"/>
+                <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Send"
+                        android:id="@+id/sendButton" android:layout_column="2" android:onClick="sendPicture"
+                        android:visibility="visible" android:layout_weight="1"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
+

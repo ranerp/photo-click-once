@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OneClickPhoto</string>
+    <string name="services_available">Google Play Services are available!</string>
+    <string name="services_unavailable">Google Play Services are unavailable</string>
+</resources>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="autobahn_web_sockets">
+    <CLASSES>
+      <root url="file://D:/autobahn_web_sockets" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/autobahn_web_sockets" recursive="false" />
+  </library>
+</component>
