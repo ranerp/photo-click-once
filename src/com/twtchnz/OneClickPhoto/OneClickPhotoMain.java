@@ -125,6 +125,10 @@ public class OneClickPhotoMain extends FragmentActivity {
             FileInputStream fin = new FileInputStream(file);
             BufferedInputStream buf = new BufferedInputStream(fin, BUFFER_SIZE);
 
+            String address = locationTracker.getAddress();
+
+            socketConnection.sendBinaryMessage(address.getBytes("UTF-8"));
+
             int count;
             while ((count = buf.read(tempBuff, 0, BUFFER_SIZE)) > -1) {
                 if(count == BUFFER_SIZE) {

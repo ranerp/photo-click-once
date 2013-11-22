@@ -29,7 +29,7 @@ public final class OneClickPhotoUtils {
     public static final String JPEG_FILE_PREFIX = "IMG_";
     public static final String JPEG_FILE_SUFFIX = ".jpg";
 
-    public static final String WEB_SOCKET_URL = "ws://192.168.0.101:9000/image/receive";
+    public static final String WEB_SOCKET_URL = "ws://twtchnz-project-cream.herokuapp.com/image/receive";
 
     public static final String ALBUM_NAME = "OneClickPhoto";
 }
